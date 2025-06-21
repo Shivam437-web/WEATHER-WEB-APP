@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!---------------  CSS  --------------------->
+    <link rel="stylesheet" href="weather.css">
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQO1lKKf6qMUPv01kWhR3CbEf2dEaiNudDCg&s" type="image/x-icon">
+    <title>Weather Web App</title>
+    <!---------------  IONICONS  --------------------->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="search_box">
+            <input type="text" placeholder="Enter a city name" id="city" value="DELHI" autocomplete="off"/>
+            <button id="search"><ion-icon class="icon" name="search"></ion-icon></button>
+        </div>
+        <div id="show"></div>
+    </div>
+    <!---------------  SCRIPT  --------------------->
+    <script src="weather.js"></script>
+</body>
+</html>
